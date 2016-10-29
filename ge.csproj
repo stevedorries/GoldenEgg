@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Documents and Settings\THE RAIN\Desktop\ge.exe-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C89F9D66-5B48-4CAB-8F47-1C08E732CE6E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>ge</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <ApplicationVersion>0.0.0.5</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="WeifenLuo.WinFormsUI.Docking">
+      <HintPath>lib\WeifenLuo.WinFormsUI.Docking.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GE\CustomExceptionHandler.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="Win32.cs" />
+    <Compile Include="GE\Level.cs" />
+    <Compile Include="GE\Decompress.cs" />
+    <Compile Include="GE\Properties\Settings.cs" />
+    <Compile Include="GE\Properties\Resources.cs" />
+    <Compile Include="GE\Forms\LevelTab.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GE\Forms\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GE\Forms\LevelEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GE\Forms\Dialogues\LevelEditor\MiniMapViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GE\Forms\Dialogues\LevelEditor\PaletteEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GE\Forms\Dialogues\LevelEditor\ClearLevelData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GE\Forms\Dialogues\LevelEditor\LevelSelector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GE\Forms\Dialogues\LevelEditor\ObjectSelector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GE\Forms\Dialogues\LevelEditor\ScreenExitEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GE\Forms\Dialogues\LevelEditor\HeaderEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GE\Forms\Dialogues\MainForm\EmulatorPathSetter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ge\Program.cs" />
+    <Compile Include="Library\Memory.cs" />
+    <Compile Include="Library\SNES.cs" />
+    <Compile Include="Library\VariableByte.cs" />
+    <Compile Include="Library\Font.cs" />
+    <Compile Include="Library\Bitmap.cs" />
+    <Compile Include="Library\crc32.cs" />
+    <Compile Include="Library\Controls\HexTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Library\Controls\DoubleBufferedPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="GE\Forms\Dialogues\LevelEditor\ClearLevelData.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GE\Forms\Dialogues\LevelEditor\HeaderEditor.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GE\Forms\Dialogues\LevelEditor\LevelSelector.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GE\Forms\Dialogues\LevelEditor\MiniMapViewer.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GE\Forms\Dialogues\LevelEditor\ObjectSelector.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GE\Forms\Dialogues\LevelEditor\PaletteEditor.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GE\Forms\Dialogues\LevelEditor\ScreenExitEditor.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GE\Forms\Dialogues\MainForm\EmulatorPathSetter.resx" />
+    <EmbeddedResource Include="GE\Forms\LevelEditor.resx" />
+    <EmbeddedResource Include="GE\Forms\LevelTab.resx" />
+    <EmbeddedResource Include="GE\Forms\MainForm.resx" />
+    <EmbeddedResource Include="GE\Properties\Resources.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="WeifenLuo.WinFormsUI.Docking.dll" />
+    <Content Include="WeifenLuo.WinFormsUI.Docking.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

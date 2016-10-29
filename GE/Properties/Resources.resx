@@ -1,0 +1,3045 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="PaletteEditor" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAOxJREFUOE+Nk9EN
+        gzAMREvFJFUH4aOTdBTEJIhBEMpXx6gYga8KNfUFjjjgoCKdiIB7ZzukcIO75K6qqjze9X1fZD8CYK/y
+        Wnpo/s6iZQ1Z35rmxUgBBLMNSQBIuQ9OmSMEAAtiAkzIZ/KzaN/KBmA6zGeA8d0kkFNA95o8hXTIBOh0
+        Dk+bsX7UMpsV0LWxilBB3LI4fQ2AGUI69BcAlTCZ6WUrWwk945YmMxhrSRCFNtaeebfM4S/m34U2xluU
+        HloYHJNVegLgLBoBUew5AGDcmQ8AQlANIBgWlTsPh7OgW6Ipd5DMCqwTd/bsB5aYXozUQyE/AAAAAElF
+        TkSuQmCC
+</value>
+  </data>
+  <data name="ObjectEditMode" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAANxJREFUOE+Vku0J
+        g0AQRDVYSSqRYGViKRYiYiXBEvIrBExm5en4mURYvPV23s7tmXZtl+jJ83yIxR9P0zRpkl2ywaO/VwNx
+        tMf3aE7iwq/rtpqaBuD1fETUZREb5Fr3n2LlepNrTW0A/AMABMpVjIDaBWBzVuuw3lvniQZxVlTd5iG7
+        K2liiA6oS9mdBRIrJCSwTtNdACC9HcAsiuvcZAMYb2N08jeA6zuCyIG6HzpwgKy7C+WIASz+RIoFYXhA
+        9sTTLTDN9bkd4p3d/q4Dt80QfwJglzngQOKzI7wBv5zTmO4hroEAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="Map16Editor" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAKtJREFUOE+lk80N
+        gCAMhYlhNCdxNOMkhJPzeDQiDykWpPh3aDRt30fbtMoaq3Sn3ReD9hQbD4m2bquTbJoX1482PXgASDz6
+        /2hPISeAiVsQiunhaPsVIInx2FtAJn4CKGfQBCCZJ9QGeAtoTb18IMD4DO7EFBeH2OpXjEkVXHr15ZYQ
+        vo1hD+Colils5QWA3YYTVquAYvRFPt1DOiZyhgD6i8b9WU68YPX3nHfPsFX7wkzmxAAAAABJRU5ErkJg
+        gg==
+</value>
+  </data>
+  <data name="BG2Viewer" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAPxJREFUOE99krEN
+        AjEQBE1GQEAxFEAJBBRCERRAQBmEhB8hYkIiCiBAiAAhgtcbraWxlsPiJcvn8+3e3r5Hx8MxxW8zeeTV
+        czqK+evsnT23GM9TEkFcy9M+aym/e3WZ1Q99ibVrbe9dbhLoAhLFECiGRLkfAgdCwE5XFLAXBVFmBHN2
+        cCVwsGIVs6/PuzoKM7sPqqvdYwFdncSb6V6YhElujhuo2Enck6rAnYYZQ1vGuqFfI2BMVKBzJJKqooBA
+        B8Wtjv/UJMzDoPgLIziaWk3k1zGfywYEGa+wvEQ30C8iKI4GrpqoBMmWiZfhVu+99usdtOZXscB4hNGQ
+        fADPrP8owD8REwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="objects_info" xml:space="preserve">
+    <value>01{
+label:Ledge
+desc:A ledge; the most commonly used ground object in the game.
+filter:Cave1, Forest1, Snow, Grass1, Cave2, Forest2, Grass2
+}
+02{
+label:Left edge of ledge
+desc:The left edge of a ledge.
+filter:Cave1, Forest1, Snow, Grass1, Cave2, Forest2, Grass2
+}
+03{
+label:Right edge of ledge
+desc:The right edge of a ledge.
+filter:Cave1, Forest1, Snow, Grass1, Cave2, Forest2, Grass2
+}
+04{
+label:Gradual downwards slope, right
+desc:A gradual downwards slope facing to the right.
+filter:Cave1, Forest1, Snow, Grass1, Cave2, Forest2, Grass2
+}
+05{
+label:Gradual downwards slope, left
+desc:A gradual downwards slope facing to the left.
+filter:Cave1, Forest1, Snow, Grass1, Cave2, Forest2, Grass2
+}
+06{
+label:Downwards slope, right
+desc:An average grade downwards slope facing to the right.
+filter:Cave1, Forest1, Snow, Grass1, Cave2, Forest2, Grass2
+}
+07{
+label:Downwards slope, left
+desc:An average grade downwards slope facing to the left.
+filter:Cave1, Forest1, Snow, Grass1, Cave2, Forest2, Grass2
+}
+08{
+label:Steep downwards slope, right
+desc:A steep downwards slope facing to the right.
+filter:Snow, Cave2
+}
+09{
+label:Steep downwards slope, left
+desc:A steep downwards slope facing to the left.
+filter:Snow, Cave2
+}
+0A{
+label:Left edge of ledge, without protrusion
+desc:The left edge of a ledge without a protrusion at the top.
+filter:Cave1, Forest1, Snow, Grass1, Cave2, Forest2, Grass2
+}
+0B{
+label:Right edge of ledge, without protrusion
+desc:The right edge of a ledge without a protrusion at the top.
+filter:Cave1, Forest1, Snow, Grass1, Cave2, Forest2, Grass2
+}
+0C{
+label:Poundable stake
+desc:A stake which you can pound into the ground.
+filter:Cave1, Forest1, Snow, Grass1, Cave2, Forest2, Flower, Grass2
+}
+0D{
+label:Skinny horizontal platform
+desc:A skinny wooden platform which you can attach to ledges.
+filter:Cave1, Forest1, Snow, Grass1, Cave2, Forest2, Flower, Grass2
+}
+0E{
+label:Pole of ski lift wire, left
+desc:The left pole used to hold up a ski lift.
+filter:Snow
+}
+0F{
+label:Pole of ski lift wire, right
+desc:The right pole used to hold up a ski lift.
+filter:Snow
+}
+10{
+label:Diagonal ski lift wire, gradual
+desc:A ski lift wire with a gradual downwards slope.
+filter:Snow
+}
+11{
+label:Diagonal ski lift wire
+desc:A ski lift wire with an average grade downwards slope.
+filter:Snow
+}
+12{
+label:Diagonal ski lift wire, steep
+desc:A ski lift wire with a steep downwards slope.
+filter:Snow
+}
+13{
+label:Horizontal ski lift wire
+desc:A ski lift wire.
+filter:Snow
+}
+14{
+label:Cross section
+desc:A cross section used to cut away the ground.
+filter:Cave1, Forest1, Grass1
+}
+15{
+label:Cloud
+desc:A small cloud that Yoshi can stand on.
+filter:Cave1, Forest1, Pond, 3D, Snow, Jungle, Castle1, Grass1, Cave2, Forest2, Castle2, Sewer, Flower, Sky, Castle3, Grass2
+}
+16{
+label:Transparent water
+desc:Transparent water that Yoshi can swim in. You can size it to fill up all the bottom screens (70-7F).
+filter:Pond
+}
+17{
+label:Stone with grass
+desc:A stone with grass on it. If it is placed on either object 16 or 19, it will be covered with water.
+filter:Pond
+}
+18{
+label:Stone
+desc:A large stone that, if placed on either object 16 or 19, will be covered with water.
+filter:Pond
+}
+19{
+label:Stone and gravel in water
+desc:The water and stone background used in lake areas acts like water. You can size it to fill up all the bottom screens (70-7F).
+filter:Pond
+}
+1A{
+label:Wooden platform
+desc:A wooden platform that is seen in lake areas.
+filter:Pond
+}
+1B{
+label:Vertical log
+desc:A vertical log that is seen in lake areas
+filter:Pond
+}
+1C{
+label:Tied log
+desc:A horizontal log tied to a wooden platform. It is used in lake areas.
+filter:Pond
+}
+1D{
+label:Red mushroom
+desc:A red mushroom used as decoration.
+filter:Pond
+}
+1E{
+label:White flower
+desc:A white flower used as decoration.
+filter:Pond
+}
+1F{
+label:Wavy lava
+desc:Wavy lava, found in castle levels. You will have to set the level mode to the correct value to enable the effect.
+filter:3D
+}
+20{
+label:3D Stone
+desc:A 3D stone found in castle areas.
+filter:3D
+}
+21{
+label:Muddy ledge  with grass
+desc:A muddy ledge with grass covering it.
+filter:Jungle
+}
+22{
+label:Left edge of muddy ledge with grass
+desc:The left edge of a muddy, grass-covered ledge.
+filter:Jungle
+}
+23{
+label:Right edge of muddy ledge with grass
+desc:The right edge of a muddy, grass-covered ledge.
+filter:Jungle
+}
+24{
+label:Muddy ledge
+desc:A muddy ledge.
+filter:Jungle
+}
+25{
+label:Left edge of muddy ledge
+desc:The left edge of a muddy ledge.
+filter:Jungle
+}
+26{
+label:Right edge of muddy ledge
+desc:The right edge of a muddy ledge.
+filter:Jungle
+}
+27{
+label:Downwards muddy slope, left
+desc:A muddy slope facing to the left.
+filter:Jungle
+}
+28{
+label:Downwards muddy slope, right
+desc:A muddy slope facing to the right.
+filter:Jungle
+}
+29{
+label:Treetop canopy, left half
+desc:The left half of a large treetop canopy seen in jungle areas.
+filter:Jungle
+}
+2A{
+label:Treetop canopy, right half
+desc:The right half of a large treetop canopy seen in jungle areas.
+filter:Jungle
+}
+2B{
+label:Poundable stake
+desc:A stake which you can pound into the ground. It is used in jungle areas.
+filter:Jungle
+}
+2C{
+label:Stone
+desc:A large vertical stone seen in jungle areas.
+filter:Jungle
+}
+2D{
+label:Hanging vine on mud
+desc:A muddy, grass-covered ledge with a vine hanging off of it.
+filter:Jungle
+}
+2E{
+label:Hanging vine on mud with leaves
+desc:A muddy, grass-covered ledge with a leaf-covered vine hanging off of it.
+filter:Jungle
+}
+2F{
+label:Tree
+desc:A jungle tree.
+filter:Jungle
+}
+30{
+label:Vine
+desc:A jungle vine which can occasionally hide sprites.
+filter:Jungle
+}
+31{
+label:Vine with leaves
+desc:A jungle vine with leaves which can occasionally hide sprites.
+filter:Jungle
+}
+32{
+label:Stone with pattern on the top
+desc:A large stone with a pattern on its top.
+filter:Jungle
+}
+33{
+label:Stone
+desc:A large stone without a pattern on its top.
+filter:Jungle
+}
+34{
+label:Cattail
+desc:A cattail found in swampy areas.
+filter:Jungle
+}
+35{
+label:Animated water
+desc:Animated water which will allow you to see some tiles (mostly solid jungle tiles) in it.
+filter:Animated
+}
+36{
+label:Vine with leaves
+desc:A vine with leaves which, unlike object 31, will not hide sprites.
+filter:Jungle
+}
+37{
+label:Horizontal red platform
+desc:A horizontal red platform which is used often throughout the game.
+filter:Cave1, Forest1, Pond, 3D, Snow, Jungle, Castle1, Grass1, Cave2, Forest2, Castle2, Sewer, Flower, Sky, Castle3, Grass2
+}
+38{
+label:Stone
+desc:A large castle stone used in the room in which you fight Hookbill the Koopa.
+filter:3D, Sewer
+}
+39{
+label:Red stone
+desc:A small red stone used in the room in which you fight Hookbill the Koopa.
+filter:3D
+}
+3A{
+label:Steep upwards slope, right
+desc:A steep upwards slope facing to the right
+filter:Cave2
+}
+3B{
+label:Steep upwards slope, left
+desc:A steep upwards slope facing to the left.
+filter:Cave2
+}
+3C{
+label:Enterable vertical pipe
+desc:An enterable vertical pipe. Sizing it negatively makes it face downwards instead of upwards.
+filter:Cave1, Forest1, Pond, 3D, Snow, Jungle, Castle1, Grass1, Cave2, Forest2, Castle2, Sewer, Flower, Sky, Castle3, Grass2
+}
+3D{
+label:Unknown object
+desc:An unknown object.
+filter:Misc
+}
+3E{
+label:2 poles of ski lift wire
+desc:Two poles of a ski lift wire immediately next to each other.
+filter:Snow
+}
+3F{
+label:Left facing spike
+desc:A left facing spike which kills Yoshi instantly.
+filter:3D
+}
+40{
+label:Right facing spike
+desc:A right facing spike which kills Yoshi instantly.
+filter:3D
+}
+41{
+label:Horizontal platform in castle
+desc:A horizontal platform used in castles.
+filter:Castle1, Castle2, Castle3
+}
+42{
+label:Castle pillar
+desc:A castle pillar, divided into two block-tall segments.
+filter:Castle1
+}
+43{
+label:Castle pillar
+desc:A castle pillar.
+filter:Castle1, Castle2, Castle3
+}
+44{
+label:Castle wall
+desc:The background wall of a castle.
+filter:Castle1, Castle2, Castle3
+}
+45{
+label:Downwards diagonal castle wall, right
+desc:The downwards end of a castle wall facing right.
+filter:Castle1, Castle2, Castle3
+}
+46{
+label:Downwards diagonal castle wall, left
+desc:The downwards end of a castle wall facing left.
+filter:Castle1, Castle2, Castle3
+}
+47{
+label:Lava in castle
+desc:Lava found in castles that will kill Yoshi on contact.
+filter:Castle1, Castle2, Castle3, Animated
+}
+48{
+label:Brick
+desc:A brick-based ground found most commonly in castles.
+filter:Castle1, Castle2, Castle3
+}
+49{
+label:Window in castle wall
+desc:A window in a castle wall.
+filter:Castle1, Castle2, Castle3
+}
+4A{
+label:Castle pillar
+desc:A pillar found in a castle, usually used as support for 3D objects.
+filter:Castle1, Castle3
+}
+4B{
+label:Checkered block, 4
+desc:A checkered block that is four blocks wide.
+filter:Castle1, Castle3
+}
+4C{
+label:Checkered block, 6
+desc:A checkered block that is six blocks wide.
+filter:Castle1, Castle3
+}
+4D{
+label:Checkered block, 8
+desc:A checkered block that is eight blocks wide.
+filter:Castle1, Castle3
+}
+4E{
+label:Sand block
+desc:A block made out of sand.
+filter:Cave1, Forest1, Snow, Castle1, Grass1, Cave2, Forest2, Castle2, Flower, Sky, Castle3, Grass2
+}
+4F{
+label:Sand block remover
+desc:This will remove areas of sand. Use this object only to remove sand and not as a blank tile; use object A8 instead for that purpose.
+filter:Cave1, Forest1, Snow, Castle1, Grass1, Cave2, Forest2, Castle2, Flower, Sky, Castle3, Grass2
+}
+50{
+label:Vertical rail
+desc:A vertical railroad rail on a castle wall used for Train Yoshi.
+filter:Castle1, Grass1
+}
+51{
+label:Horizontal rail
+desc:A horizontal railroad rail on a castle wall used for Train Yoshi.
+filter:Castle1, Grass1
+}
+52{
+label:Diagonal rail
+desc:A diagonal railroad rail on a castle wall used for Train Yoshi.
+filter:Castle1, Grass1
+}
+53{
+label:Horizontal platform on castle wall
+desc:A horizontal platform on a castle wall. If it is not placed on a wall, it will not appear.
+filter:Castle1, Castle2, Castle3
+}
+54{
+label:Gradually slanted platform on castle wall
+desc:A gradual downwards slope on a castle wall.
+filter:Castle1, Castle2, Castle3
+}
+55{
+label:Slanted platform on castle wall
+desc:An average grade downwards slope on a castle wall.
+filter:Castle1, Castle2, Castle3
+}
+56{
+label:Steeply slanted platform on castle wall
+desc:A steep downwards slope on a castle wall.
+filter:Castle1, Castle2, Castle3
+}
+57{
+label:Platform in cross section
+desc:A wooden platform attached to cross sections.
+filter:Cave1, Forest1, Grass1
+}
+58{
+label:Ceiling of ledge
+desc:The ceiling of a ledge. Attaching this to solid ground allows you to connect this with a ledge edge.
+filter:Cave1, Forest1, Snow, Grass1, Cave2
+}
+59{
+label:Gradual downwards slope in cross section, right
+desc:A gradual downwards slope facing to the right, found in cross sections.
+filter:Cave1, Forest1, Grass1
+}
+5A{
+label:Downwards slope in cross section, right
+desc:An average grade downwards slope facing to the right, found in cross sections.
+filter:Cave1, Forest1, Grass1
+}
+5B{
+label:Steep downwards steep slope in passage, right
+desc:A steep downwards slope facing to the right, found in cross sections.
+filter:Cave1, Forest1, Grass1
+}
+5C{
+label:Gradual downwards slope in passage, left
+desc:A gradual downwards slope facing to the left, found in cross sections.
+filter:Cave1, Forest1, Grass1
+}
+5D{
+label:Downwards slope in passage, left
+desc:An average grade downwards slope facing to the left, found in cross sections.
+filter:Cave1, Forest1, Grass1
+}
+5E{
+label:Steep downwards slope in passage, left
+desc:A steep downwards slope facing to the left, found in cross sections.
+filter:Cave1, Forest1, Grass1
+}
+5F{
+label:Upward gradual slope, right
+desc:A gradual upwards slope facing to the right, found in cross sections.
+filter:Cave1, Forest1, Grass1, Cave2
+}
+60{
+label:Upwards slope, right
+desc:An average grade upwards slope facing to the right, found in cross sections.
+filter:Cave1, Forest1, Grass1, Cave2
+}
+61{
+label:Gradual upwards slope, left
+desc:A gradual upwards slope facing to the left, found in cross sections.
+filter:Cave1, Forest1, Grass1, Cave2
+}
+62{
+label:Upwards slope, left
+desc:An average grade upwards slope facing to the left, found in cross sections.
+filter:Cave1, Forest1, Grass1, Cave2
+}
+63{
+label:Horizontal brown platform
+desc:A generic horizontal platform.
+filter:Cave1, Forest1, Pond, 3D, Snow, Jungle, Castle1, Grass1, Cave2, Forest2, Castle2, Sewer, Flower, Sky, Castle3, Grass2
+}
+64{
+label:Horizontal brown platform
+desc:A generic horizontal platform.
+filter:Cave1, Forest1, Pond, 3D, Snow, Jungle, Castle1, Grass1, Cave2, Forest2, Castle2, Sewer, Flower, Sky, Castle3, Grass2
+}
+65{
+label:Horizontal brown platform
+desc:A generic horizontal platform.
+filter:Cave1, Forest1, Pond, 3D, Snow, Jungle, Castle1, Grass1, Cave2, Forest2, Castle2, Sewer, Flower, Sky, Castle3, Grass2
+}
+66{
+label:Meltable ice block
+desc:An ice block that can be melted with fire. Placing shy guys, flowers, or bumpties causes them to be frozen within the ice.
+filter:Cave1, Forest1, Pond, 3D, Snow, Jungle, Castle1, Grass1, Cave2, Forest2, Castle2, Sewer, Flower, Sky, Castle3, Grass2
+}
+67{
+label:Ground
+desc:A solid ground object.
+filter:Cave1, Forest1, Snow, Grass1, Cave2, Forest2, Flower, Grass2
+}
+68{
+label:Coin
+desc:A coin. It affects item memory.
+filter:Animated
+}
+69{
+label:Castella
+desc:A castella. Yoshi will sink into the top of it, and get stuck in the bottom.
+filter:Castle1, Castle2
+}
+6A{
+label:Unknown object
+desc:An unknown object.
+filter:Misc
+}
+6B{
+label:Goal platform
+desc:A goal platform.
+filter:Cave1, Forest1, Pond, 3D, Snow, Jungle, Castle1, Grass1, Cave2, Forest2, Castle2, Sewer, Flower, Sky, Castle3, Grass2
+}
+6C{
+label:Gray cement block
+desc:A gray cement block. Unlike colorful cement blocks, this object can cast shadows on castle walls.
+filter:Cave1, Forest1, Pond, 3D, Snow, Jungle, Castle1, Grass1, Cave2, Forest2, Castle2, Sewer, Flower, Sky, Castle3, Grass2
+}
+6D{
+label:Spiky stake
+desc:A stake sharpened to a spike. It will hurt Yoshi if he touches it.
+filter:Cave1, Forest1, Snow, Jungle, Grass1, Cave2, Forest2, Flower, Grass2
+}
+6E{
+label:Colorful cement block
+desc:A colorful cement block. Unlike gray cement blocks, this object cannot cast shadows on castle walls.
+filter:Cave1, Forest1, Pond, 3D, Snow, Jungle, Castle1, Grass1, Cave2, Forest2, Castle2, Sewer, Flower, Sky, Castle3, Grass2
+}
+6F{
+label:Twisted tree
+desc:A twisted tree trunk.
+filter:Forest2
+}
+70{
+label:Plants
+desc:Plants found on the forest ground.
+filter:Forest2
+}
+71{
+label:Flower on ground
+desc:Large flowers found in the forest ground.
+filter:Forest2
+}
+72{
+label:Flower on ground
+desc:Large flowers found beneath the forest ground.
+filter:Forest2
+}
+73{
+label:Leaves of twisted tree
+desc:Leaves found on a twisted tree.
+filter:Forest2
+}
+74{
+label:Leaves of twisted tree
+desc:Leaves found on a twisted tree.
+filter:Forest2
+}
+75{
+label:Left facing leaf of twisted tree
+desc:Left facing leaves on a twisted tree.
+filter:Forest2
+}
+76{
+label:Right facing leaf of twisted tree
+desc:Right facing leaves on a twisted tree.
+filter:Forest2
+}
+77{
+label:Centrally facing leaf of twisted tree
+desc:Leaves in the center of a twisted tree.
+filter:Forest2
+}
+78{
+label:Slanted twisted tree
+desc:A slanted twisted tree. Sizing it negatively makes it grow to the left instead.
+filter:Forest2
+}
+79{
+label:Red stairs
+desc:A red staircase, styled similarly to object 37. Sizing is negatively makes it face left.
+filter:Cave1, Forest1, Pond, 3D, Jungle, Castle1, Grass1, Forest2, Castle2, Sewer, Flower, Sky, Grass2
+}
+7A{
+label:Wall
+desc:A large dirt wall. It looks like a cross section, but it does not cut away the ground
+filter:Cave1, Forest1, Grass1
+}
+7B{
+label:Diagonal wall
+desc:A diagonal wall used in conjunction with object 7A. Sizing it negatively makes it face left.
+filter:Cave1, Forest1, Grass1
+}
+7C{
+label:Upside-down diagonal wall
+desc:An upside-down diagonal wall used in conjunction with object 7A. Sizing it negatively makes it face left.
+filter:Cave1, Forest1, Grass1
+}
+7D{
+label:Ledge on wall
+desc:A ledge found on a wall.
+filter:Cave1, Forest1, Grass1
+}
+7E{
+label:Platform on wall
+desc:A wooden platform attached to cross sections. It is similar to object 57, but it will never cast a shadow.
+filter:Cave1, Forest1, Grass1
+}
+7F{
+label:Wall hole
+desc:A hole in the wall. It will not appear if it is not placed on a wall.
+filter:Cave1, Forest1, Grass1
+}
+80{
+label:Upside-down diagonal wall
+desc:An upside-down diagonal wall used in conjunction with object 7A. Sizing it negatively makes it face left.
+filter:Cave1, Forest1, Grass1
+}
+81{
+label:Diagonal wall
+desc:A diagonal wall used in conjunction with object 7A. This is like object 7B, except it does not have a vertical edge.
+filter:Cave1, Forest1, Grass1
+}
+82{
+label:Green coin
+desc:A green coin that acts like a red coin. Usage of this is not recommended as some unexpected code may be executed. This object affects Item Memory.
+filter:Animated
+}
+83{
+label:Green coin, placed every 2 blocks
+desc:A green coin that acts like a red coin, placed on every other block. Usage of this is not recommended as some unexpected code may be executed. This object affects Item Memory.
+filter:Animated
+}
+84{
+label:Diagonal green coin, placed every 2 blocks
+desc:A green coin that acts like a red coin, placed diagonally right on every other block. Sizing it negatively makes it face left. Usage of this is not recommended as some unexpected code may be executed. This object affects Item Memory.
+filter:Animated
+}
+85{
+label:Upwards steep slope, right
+desc:An upwards steep slope facing right. This is used for cross sections in certain tilesets.
+filter:Forest1
+}
+86{
+label:Upwards steep slope, left
+desc:An upwards steep slope facing left. This is used for cross sections in certain tilesets.
+filter:Forest1
+}
+87{
+label:Ledge without grass
+desc:A ledge without grass on it.
+filter:Forest1
+}
+88{
+label:Ledge without grass
+desc:A ledge without grass on it. It is more uniform in style than object 87.
+filter:Forest1, Forest2
+}
+89{
+label:Falling rock
+desc:A large rock that will fall after Yoshi lands on it.
+filter:Grass2
+}
+8A{
+label:!-switch coin
+desc:A coin which can be collected only when a !-switch is active. This object affects Item Memory.
+filter:Animated
+}
+8B{
+label:!-switch block
+desc:A block which is only solid when a !-switch is active.
+filter:Animated
+}
+8C{
+label:Boo Guy's bomb-brigade room
+desc:The small room where Boo Guys stand in line to drop bombs on Yoshi.
+filter:Castle1, Castle2, Castle3
+}
+8D{
+label:Tree
+desc:A tree.
+filter:Grass2
+}
+8E{
+label:Giant donut lift
+desc:A giant donut lift. If Yoshi stands on it for too long, it will fall.
+filter:Grass2
+}
+8F{
+label:Slanted log stuck in ground, gradual
+desc:A gradually slanted log stuck in the ground.
+filter:Forest2
+}
+90{
+label:Slanted log stuck in ground
+desc:An average-grade log stuck in the ground
+filter:Forest2
+}
+91{
+label:Tree with spore
+desc:A tree with a large, green spore on its top. It can be placed on left-facing gradual logs.
+filter:Forest2
+}
+92{
+label:Tree with spore, mirrored
+desc:A tree with a large, green spore on its top. It is exactly like object 91, except it is mirrored and can be placed on right-facing gradual logs.
+filter:Forest2
+}
+93{
+label:Palm tree
+desc:A palm tree.
+filter:Forest1
+}
+94{
+label:Number platform 1
+desc:A numbered platform with the number 1 on it. It will disappear after Yoshi gets off of it.
+filter:Forest2
+}
+95{
+label:Number platform 2
+desc:A numbered platform with the number 2 on it. It will turn into object 94 after Yoshi gets off of it.
+filter:Forest2
+}
+96{
+label:Number platform 3
+desc:A numbered platform with the number 3 on it. It will turn into object 95 after Yoshi gets off of it.
+filter:Forest2
+}
+97{
+label:Number platform 4
+desc:A numbered platform with the number 4 on it. It will turn into object 96 after Yoshi gets off of it.
+filter:Forest2
+}
+98{
+label:Waterfall
+desc:A waterfall found in caves.
+filter:Cave1
+}
+99{
+label:Rock on waterfall
+desc:A rock which blocks a waterfall.
+filter:Cave1
+}
+9A{
+label:Plant in cave, large
+desc:A large plant, found in caves.
+filter:Cave1
+}
+9B{
+label:Plant in cave
+desc:A tall cave plant that swirls at the top.
+filter:Cave1
+}
+9C{
+label:Plant in cave
+desc:A tall cave plant with two buds at the top.
+filter:Cave1
+}
+9D{
+label:Stationary rock
+desc:A large rock that will not fall if Yoshi lands on it.
+filter:Grass2
+}
+9E{
+label:Donut lift
+desc:A donut lift. If Yoshi stands on it for too long, it will fall.
+filter:Cave1, Forest1, 3D, Snow, Jungle, Castle1, Grass1, Cave2, Forest2, Sewer, Flower, Castle3, Grass2
+}
+9F{
+label:Raven's platform
+desc:A circular platform that ravens perch on and circle. It will be placed every four blocks.
+filter:Grass2
+}
+A0{
+label:Red block
+desc:A red platform that, if hit with an egg, will turn into object A1.
+filter:Castle1, Castle2, Castle3
+}
+A1{
+label:Yellow block
+desc:A yellow platform that, if hit with an egg, will turn into object A2.
+filter:Castle1, Castle2, Castle3
+}
+A2{
+label:Green block
+desc:A green platform that, if hit with an egg, will disappear.
+filter:Castle1, Castle2, Castle3
+}
+A3{
+label:Breakable block
+desc:A large breakable block that will be destroyed if hit twice by an egg.
+filter:Castle1, Castle2, Castle3
+}
+A4{
+label:Fragile breakable block
+desc:A large breakable block that will be destroyed if hit by an egg.
+filter:Castle1, Castle2, Castle3
+}
+A5{
+label:Double-ended vertical pipe
+desc:A double-ended vertical pipe used in castles and 3D areas.
+filter:3D, Castle1, Castle2, Castle3
+}
+A6{
+label:Double-ended horizontal pipe
+desc:A double-ended horizontal pipe used in castles and 3D areas.
+filter:3D, Castle1, Castle2, Castle3
+}
+A7{
+label:Blue spike ball
+desc:A group of thorns that will kill Yoshi instantly if he touches it.
+filter:3D, Castle1, Castle2, Sewer, Castle3
+}
+A8{
+label:Blank tile
+desc:A blank tile. It can be used to erase tiles, or to remove tiles from object A7.
+filter:Cave1, Forest1, Pond, 3D, Jungle, Castle1, Grass1, Cave2, Forest2, Castle2, Sewer, Flower, Sky, Castle3
+}
+A9{
+label:Prop of Chomp sign / Vertical pipe
+desc:The prop of a chomp sign. If in a 3D area, this is instead a vertical pipe which Yoshi can travel through to reach different stories in a level.
+filter:Forest1, 3D, Snow, Grass1, Castle2
+}
+AA{
+label:Vertical sewage pipe, left
+desc:The left side of a vertical sewage pipe.
+filter:Sewer
+}
+AB{
+label:Vertical sewage pipe, right
+desc:The right side of a vertical sewage pipe.
+filter:Sewer
+}
+AC{
+label:Horizontal sewage pipe, top / Randomly coloured egg block
+desc:The ceiling of a horizontal sewage pipe. If it is not placed in a sewer level, it will be a randomly coloured egg block. As it can occasionally freeze the game, only using this object in sewer levels is advised.
+filter:Sewer
+}
+AD{
+label:Horizontal sewage pipe, bottom
+desc:The floor of a horizontal sewage pipe.
+filter:Sewer
+}
+AE{
+label:Sewage pipe wall
+desc:A background wall used for vertical sewage pipes.
+filter:Sewer
+}
+AF{
+label:Sewage pipe wall
+desc:A background wall used for horizontal sewage pipes.
+filter:Sewer
+}
+B0{
+label:Sewage pipe wall
+desc:A background wall used for sewer levels.
+filter:Sewer
+}
+B1{
+label:Platform on sewage pipe wall
+desc:A platform attached to sewer background walls.
+filter:Sewer
+}
+B2{
+label:Diagonal sewage pipe ceiling, left
+desc:A downwards left-facing ceiling of a sewage pipe.
+filter:Sewer
+}
+B3{
+label:Diagonal sewage pipe floor, left
+desc:A downwards left-facing floor of a sewage pipe.
+filter:Sewer
+}
+B4{
+label:Large diagonal sewage pipe ceiling, left
+desc:A downwards left-facing ceiling of a large sewage pipe.
+filter:Sewer
+}
+B5{
+label:Large diagonal sewage pipe floor, left
+desc:A downwards left-facing floor of a large sewage pipe.
+filter:Sewer
+}
+B6{
+label:Diagonal sewage pipe ceiling, right
+desc:A downwards right-facing ceiling of a sewage pipe.
+filter:Sewer
+}
+B7{
+label:Diagonal sewage pipe floor, right
+desc:A downwards right-facing floor of a sewage pipe.
+filter:Sewer
+}
+B8{
+label:Large diagonal sewage pipe ceiling, right
+desc:A downwards right-facing ceiling of a large sewage pipe.
+filter:Sewer
+}
+B9{
+label:Large diagonal sewage pipe floor, right
+desc:A downwards right-facing floor of a large sewage pipe.
+filter:Sewer
+}
+BA{
+label:Sewage pipe dead end, top
+desc:A top dead end of a sewage pipe.
+filter:Sewer
+}
+BB{
+label:Sewage pipe dead end, bottom
+desc:A bottom dead end of a sewage pipe.
+filter:Sewer
+}
+BC{
+label:Sewage pipe dead end, right
+desc:A right dead end of a sewage pipe.
+filter:Sewer
+}
+BD{
+label:Sewage pipe dead end, left
+desc:A left dead end of a sewage pipe.
+filter:Sewer
+}
+BE{
+label:Sewage from sewage pipe
+desc:Sewage flowing into a sewage pipe.
+filter:Sewer
+}
+BF{
+label:Sewage
+desc:Sewage flowing off of the edge of a ledge.
+filter:Sewer
+}
+C0{
+label:Sewage flowing left
+desc:Sewage flowing to the left.
+filter:Sewer
+}
+C1{
+label:Sewage flowing right
+desc:Sewage flowing to the right.
+filter:Sewer
+}
+C2{
+label:Sewage flowing downwards left
+desc:Sewage flowing down a left-facing slope.
+filter:Sewer
+}
+C3{
+label:Sewage flowing downwards right
+desc:Sewage flowing down a right-facing slope.
+filter:Sewer
+}
+C4{
+label:Horizontal coin, placed every 2 blocks
+desc:A group of horizontal coins placed on every other block. This item affects Item Memory.
+filter:Animated
+}
+C5{
+label:Vertical coin, placed every 2 blocks
+desc:A group of vertical coins placed on every other block. This item affects Item Memory.
+filter:Animated
+}
+C6{
+label:Diagonal coin, placed every 2 blocks
+desc:A group of diagonal coins placed on every other block. Sizing it negatively makes it face left. This item affects Item Memory.
+filter:Animated
+}
+C7{
+label:Horizontal !-switch coin, placed every 2 blocks
+desc:A group of horizontal coins placed on every other block that can only be collected when a !-switch is active. This item affects Item Memory.
+filter:Animated
+}
+C8{
+label:Vertical !-switch coin, placed every 2 blocks
+desc:A group of vertical coins placed on every other block that can only be collected when a !-switch is active. This item affects Item Memory.
+filter:Animated
+}
+C9{
+label:Diagonal !-switch coin, placed every 2 blocks
+desc:A group of diagonal coins placed on every other block that can only be collected when a !-switch is on. Sizing it negatively makes it face left,. This affects Item Memory.
+filter:Animated
+}
+CA{
+label:Water in sewer
+desc:Water found in sewage pipes.
+filter:Sewer
+}
+CB{
+label:Castle wall with sides edges
+desc:A background wall of a castle with edges on both sides.
+filter:Castle1, Castle2, Castle3
+}
+CC{
+label:Upwards diagonal castle wall, left
+desc:An upwards left-facing castle background wall.
+filter:Castle1, Castle2, Castle3
+}
+CD{
+label:Upwards diagonal castle wall, right
+desc:An upwards right-facing castle background wall.
+filter:Castle1, Castle2, Castle3
+}
+CE{
+label:Diagonal line guide
+desc:An average-grade diagonal line guide. Sizing it negatively makes it face to the right.
+filter:Cave1, Forest1, Pond, 3D, Snow, Jungle, Castle1, Grass1, Cave2, Forest2, Castle2, Sewer, Flower, Sky, Castle3, Grass2
+}
+CF{
+label:Diagonal line guide, gradual
+desc:A gradual diagonal line guide. Sizing it negatively makes it face to the right.
+filter:Grass2
+}
+D0{
+label:Diagonal line guide, very gradual
+desc:A very gradual diagonal line guide. Sizing it negatively makes it face to the right.
+filter:Grass2
+}
+D1{
+label:Vertical line guide
+desc:A vertical line guide.
+filter:Cave1, Forest1, Pond, 3D, Snow, Jungle, Castle1, Grass1, Cave2, Forest2, Castle2, Sewer, Flower, Sky, Castle3, Grass2
+}
+D2{
+label:Horizontal line guide
+desc:A horizontal line guide.
+filter:Cave1, Forest1, Pond, 3D, Snow, Jungle, Castle1, Grass1, Cave2, Forest2, Castle2, Sewer, Flower, Sky, Castle3, Grass2
+}
+D3{
+label:Brown rock background
+desc:A brown rock background used in sewage pipes.
+filter:Sewer
+}
+D4{
+label:Rock wall, left side
+desc:The left size of a rock wall found in sewage pipes.
+filter:Sewer
+}
+D5{
+label:Rock wall, right side
+desc:The right size of a rock wall found in sewage pipes.
+filter:Sewer
+}
+D6{
+label:Rock ceiling
+desc:The ceiling of a rock wall found in sewage pipes.
+filter:Sewer
+}
+D7{
+label:Rock floor
+desc:The floor of a rock wall found in sewage pipes.
+filter:Sewer
+}
+D8{
+label:Giant log bridge
+desc:A giant log bridge, found in cloud areas.
+filter:Sky
+}
+D9{
+label:Log bridge
+desc:A log bridge, found in cloud areas.
+filter:Sky
+}
+DA{
+label:Star Mario block
+desc:A block which is solid only while Mario has star power.
+filter:Animated
+}
+DB{
+label:Icy floor
+desc:A ledge made out of ice.
+filter:Snow
+}
+DC{
+label:Icy floor edges, with water between them
+desc:Two ice ledge edges with water in between.
+filter:Snow, Animated
+}
+DD{
+label:Icy cave floor
+desc:A cave ledge made out of ice.
+filter:Cave2
+}
+DE{
+label:Rock on icy cave floor
+desc:A rock found in an icy cave floor.
+filter:Cave2
+}
+DF{
+label:Lava in cave
+desc:A pool of lava found in caves.
+filter:Cave2
+}
+E0{
+label:Downwards flowing lava
+desc:Downwards flowing lava found in caves.
+filter:Cave2
+}
+E1{
+label:Mushroom
+desc:A mushroom platform found in caves.
+filter:Cave2
+}
+E2{
+label:Snowy platform support
+desc:A large support used for snowy, sky-based platforms
+filter:Sky
+}
+E3{
+label:Icy floor edges with hole
+desc:Two ice ledge edges with nothing in between.
+filter:Snow
+}
+E4{
+label:Flower garden ledge
+desc:A ledge found in flower gardens. This should normally be sized so that its width is even.
+filter:Flower
+}
+E5{
+label:Flower garden gradual downwards slope, left
+desc:A gradual downwards flower garden slope facing to the left.
+filter:Flower
+}
+E6{
+label:Flower garden downwards slope, left
+desc:An average-grade downwards flower garden slope facing to the left.
+filter:Flower
+}
+E7{
+label:Flower garden steep downwards slope, left
+desc:A steep downwards flower garden slope facing to the left.
+filter:Flower
+}
+E8{
+label:Flower garden gradual downwards slope, right
+desc:A gradual downwards flower garden slope facing to the right.
+filter:Flower
+}
+E9{
+label:Flower garden downwards slope, right
+desc:An average-grade downwards flower garden slope facing to the right.
+filter:Flower
+}
+EA{
+label:Flower garden steep downwards slope, right
+desc:A steep downwards flower garden slope facing to the right.
+filter:Flower
+}
+EB{
+label:Flower garden edge, left
+desc:The left edge of a flower garden ledge.
+filter:Flower
+}
+EC{
+label:Flower garden edge, right
+desc:The right edge of a flower garden ledge.
+filter:Flower
+}
+ED{
+label:3D stone wall
+desc:A 3D stone wall. It is recommended to size this negatively to make it look correct.
+filter:3D
+}
+EE{
+label:3D stone
+desc:A 3D stone. The bottom part is not solid.
+filter:3D
+}
+EF{
+label:3D stone
+desc:A 3D stone. The bottom part is solid.
+filter:3D
+}
+F0{
+label:Moving 3D stone, slow
+desc:A 3D stone that moves slowly.
+filter:3D
+}
+F1{
+label:Moving 3D stone, quick
+desc:A 3D stone that moves quickly.
+filter:3D
+}
+F2{
+label:Moving 3D stone, slow, in the opposite direction
+desc:A 3D stone that moves slowly in the opposite direction of object F0.
+filter:3D
+}
+F3{
+label:Moving 3D stone, quick, in the opposite direction
+desc:A 3D stone that moves quickly in the opposite direction of object F1.
+filter:3D
+}
+F4{
+label:Unenterable vertical pipe
+desc:A vertical pipe that Yoshi cannot enter. Sizing it negatively makes it downwards instead of upwards.
+filter:Cave1, Forest1, Pond, 3D, Snow, Jungle, Castle1, Grass1, Cave2, Forest2, Castle2, Sewer, Flower, Sky, Castle3, Grass2
+}
+F5{
+label:Spike
+desc:A spike that will kill Yoshi instantly if he touches it.
+filter:Cave1, Forest1, Pond, 3D, Snow, Jungle, Castle1, Grass1, Cave2, Forest2, Castle2, Sewer, Flower, Sky, Castle3, Grass2
+}
+F6{
+label:Block in Kamek's room
+desc:A block found in Kamek's room that can be transformed by his magic.
+filter:Kamek
+}
+
+Ex00{
+label:Leaf in jungle, facing left
+desc:A leaf inhabits jungles, facing left.
+filter:Jungle
+}
+Ex01{
+label:Leaf in jungle, facing right
+desc:A leaf inhabits jungles, facing right.
+filter:Jungle
+}
+Ex02{
+label:Leaf with short stem in jungle, facing left
+desc:A leaf with a short stem inhabits jungles, facing left.
+filter:Jungle
+}
+Ex03{
+label:Leaf with short stem in jungle, facing right
+desc:A left with a short stem inhabits jungles, facing right.
+filter:Jungle
+}
+Ex04{
+label:Small leaf in jungle, facing left
+desc:A small leaf inhabits jungles, facing left.
+filter:Jungle
+}
+Ex05{
+label:Small leaf in jungle, facing right
+desc:A small leaf inhabits jungles, facing right.
+filter:Jungle
+}
+Ex06{
+label:Small leaf with short stem in jungle, facing left
+desc:A small leaf with a short stem inhabits jungles, facing left.
+filter:Jungle
+}
+Ex07{
+label:Small leaf with short stem in jungle, facing right
+desc:A small leaf with a short stem inhabits jungles, facing right.
+filter:Jungle
+}
+Ex08{
+label:3 leaves in jungle
+desc:Three leaves inhabit jungles.
+filter:Jungle
+}
+Ex09{
+label:2 leaves in jungle
+desc:Two leaves inhabit jungles.
+filter:Jungle
+}
+Ex0A{
+label:Bush on mud, facing left
+desc:A bush on mud, facing left.
+filter:Jungle
+}
+Ex0B{
+label:Bush on mud, facing right
+desc:A bush on mud, facing right.
+filter:Jungle
+}
+Ex0C{
+label:Vine on mud
+desc:A vine hanging on mud.
+filter:Jungle
+}
+Ex0D{
+label:Floor and ceiling of Kamek's room, type 1
+desc:A floor and a ceiling of Kamek's room.
+filter:Kamek
+}
+Ex0E{
+label:Floor and ceiling of Kamek's room, type 2
+desc:A floor and a ceiling of Kamek's room.
+filter:Kamek
+}
+Ex0F{
+label:Lily of the valley
+desc:A lily of the valley.
+filter:Pond
+}
+Ex10{
+label:Prince Froggy's throat
+desc:Prince Froggy's throat.
+filter:3D
+}
+Ex11{
+label:Seesaw holder
+desc:A seesaw holder.
+filter:Castle1, Castle2
+}
+Ex12{
+label:Red platform guide, right
+desc:A red platform guide for a Winged Cloud creates ones towards right.
+filter:Cave1, Forest1, Pond, 3D, Snow, Jungle, Castle1, Grass1, Cave2, Forest2, Castle2, Sewer, Flower, Sky, Castle3, Grass2
+}
+Ex13{
+label:Red paltform guide, left
+desc:A red platform guide for a Winged Cloud creates ones towards left.
+filter:Cave1, Forest1, Pond, 3D, Snow, Jungle, Castle1, Grass1, Cave2, Forest2, Castle2, Sewer, Flower, Sky, Castle3, Grass2
+}
+Ex14{
+label:Red stairs guide, up right
+desc:A red stairs guide for a Winged Cloud creates ones upwards right.
+filter:Cave1, Forest1, Pond, 3D, Snow, Jungle, Castle1, Grass1, Cave2, Forest2, Castle2, Sewer, Flower, Sky, Castle3, Grass2
+}
+Ex15{
+label:Red stairs guide, up left
+desc:A red stairs guide for a Winged Cloud creates ones upwards left.
+filter:Cave1, Forest1, Pond, 3D, Snow, Jungle, Castle1, Grass1, Cave2, Forest2, Castle2, Sewer, Flower, Sky, Castle3, Grass2
+}
+Ex16{
+label:Stake with hidden red coin
+desc:A hidden red coin in a stake. Place this object on a stake object placed prior to this. This object affects Item Memory.
+filter:Cave1, Forest1, Snow, Jungle, Grass1, Cave2, Forest2, Flower, Grass2
+}
+Ex17{
+label:Green coin
+desc:A green coin. The bit length of code executed when you get this is wrong, so using this is not recommended. This object affets Item Memory.
+filter:Misc
+}
+Ex18{
+label:Intro scene background
+desc:The backgrounds used for the intro scene.
+filter:Misc
+}
+Ex19{
+label:Destroyed Bowser's room, 1
+desc:A part of the destroyed Bowser's room.
+filter:Misc
+}
+Ex1A{
+label:Destroyed Bowser's room, 2
+desc:A part of the destroyed Bowser's room.
+filter:Misc
+}
+Ex1B{
+label:Bone and Skeleton
+desc:A decoration.
+filter:Forest1
+}
+Ex1C{
+label:Bone and Skeleton
+desc:A decoration. This one should be used in cross sections.
+filter:Forest1
+}
+Ex1D{
+label:Bones
+desc:A decoration. This one should be used in cross sections.
+filter:Forest1
+}
+Ex1E{
+label:Hole of Kamek's room
+desc:A hole of a floor of Kamek's room.
+filter:Kamek
+}
+Ex1F{
+label:Mold of Giant boss door
+desc:A black shape of the giant boss door.
+filter:Kamek
+}
+Ex20{
+label:Null object
+desc:Affects nothing but increases the level data size.
+filter:Misc
+}
+Ex21{
+label:Null object
+desc:Affects nothing but increases the level data size.
+filter:Misc
+}
+Ex22{
+label:Null object
+desc:Affects nothing but increases the level data size.
+filter:Misc
+}
+Ex23{
+label:Null object
+desc:Affects nothing but increases the level data size.
+filter:Misc
+}
+Ex24{
+label:Null object
+desc:Affects nothing but increases the level data size.
+filter:Misc
+}
+Ex25{
+label:Null object
+desc:Affects nothing but increases the level data size.
+filter:Misc
+}
+Ex26{
+label:Null object
+desc:Affects nothing but increases the level data size.
+filter:Misc
+}
+Ex27{
+label:Null object
+desc:Affects nothing but increases the level data size.
+filter:Misc
+}
+Ex28{
+label:Null object
+desc:Affects nothing but increases the level data size.
+filter:Misc
+}
+Ex29{
+label:Null object
+desc:Affects nothing but increases the level data size.
+filter:Misc
+}
+Ex2A{
+label:Null object
+desc:Affects nothing but increases the level data size.
+filter:Misc
+}
+Ex2B{
+label:Null object
+desc:Affects nothing but increases the level data size.
+filter:Misc
+}
+Ex2C{
+label:Null object
+desc:Affects nothing but increases the level data size.
+filter:Misc
+}
+Ex2D{
+label:Null object
+desc:Affects nothing but increases the level data size.
+filter:Misc
+}
+Ex2E{
+label:Null object
+desc:Affects nothing but increases the level data size.
+filter:Misc
+}
+Ex2F{
+label:Null object
+desc:Affects nothing but increases the level data size.
+filter:Misc
+}
+Ex30{
+label:32x32 unused block
+desc:A 32x32 unused block in castles.
+filter:Castle1, Castle2, Castle3
+}
+Ex31{
+label:Wooden wall
+desc:A large wooden wall in castles.
+filter:Castle1, Castle2, Castle3
+}
+Ex32{
+label:Grafitto, rail with platform
+desc:Grafitto of a rail painted on wall and a platform.
+filter:Grass1, Castle1
+}
+Ex33{
+label:Grafitto, top left corner of rail
+desc:Grafitto of top left corner of a rail.
+filter:Grass1, Castle1
+}
+Ex34{
+label:Grafitto, bottom left corner of rail
+desc:Grafitto of bottom left corner of a rail.
+filter:Grass1, Castle1
+}
+Ex35{
+label:Grafitto, bottom right corner of rail
+desc:Grafitto of bottom right corner of a rail.
+filter:Grass1, Castle1
+}
+Ex36{
+label:Grafitto, top right corner of rail
+desc:Grafitto of top right corner of a rail.
+filter:Grass1, Castle1
+}
+Ex37{
+label:Grafitto, top joint of horizontal rail
+desc:Grafitto of a horizontal rail connected to a vertical rail towards up.
+filter:Grass1, Castle1
+}
+Ex38{
+label:Grafitto, right joint of vertical rail
+desc:Grafitto of a vertical rail connected to a horizontal rail towards right.
+filter:Grass1, Castle1
+}
+Ex39{
+label:Grafitto, left joint of vertical rail
+desc:Grafitto of a vertical rail connected to a horizontal rail towards left.
+filter:Grass1, Castle1
+}
+Ex3A{
+label:Grafitto, bottom joint of horizontal rail
+desc:Grafitto of a horizontal rail connected to a vertical rail towards down.
+filter:Grass1, Castle1
+}
+Ex3B{
+label:Grafitto, tulip
+desc:Grafitto of a tulip.
+filter:Grass1, Castle1
+}
+Ex3C{
+label:Grafitto, tulip
+desc:Grafitto of a tulip.
+filter:Grass1, Castle1
+}
+Ex3D{
+label:Grafitto, stone
+desc:Grafitto of a stone.
+filter:Grass1, Castle1
+}
+Ex3E{
+label:Grafitto, stone
+desc:Grafitto of a stone.
+filter:Grass1, Castle1
+}
+Ex3F{
+label:Grafitto, sun
+desc:Grafitto of the sun.
+filter:Grass1, Castle1
+}
+Ex40{
+label:Grafitto, boy
+desc:Grafitto of a boy.
+filter:Grass1, Castle1
+}
+Ex41{
+label:Grafitto, top left of mountain
+desc:Grafitto of top left of a large mountain.
+filter:Grass1, Castle1
+}
+Ex42{
+label:Grafitto, top right of mountain
+desc:Grafitto of top right of a large mountain.
+filter:Grass1, Castle1
+}
+Ex43{
+label:Grafitto, bottom left of mountain
+desc:Grafitto of bottom left of a large mountain.
+filter:Grass1, Castle1
+}
+Ex44{
+label:Grafitto, bottom right of mountain
+desc:Grafitto of bottom right of a large mountain.
+filter:Grass1, Castle1
+}
+Ex45{
+label:Grafitto, small mountain
+desc:Grafitto of a small mountain.
+filter:Grass1, Castle1
+}
+Ex46{
+label:Randomly coloured egg block
+desc:A randomly coloured Egg Block, whose colour isn't corresponding to correct ones at all. As this occasionally freezes the game, using this is not recommended.
+filter:Misc
+}
+Ex47{
+label:Bandit's house
+desc:A Bandit's house.
+filter:Cave1, Forest1, Pond, 3D, Snow, Jungle, Castle1, Grass1, Cave2, Forest2, Castle2, Sewer, Flower, Sky, Castle3, Grass2
+}
+Ex48{
+label:Unknown
+desc:An uknown object.
+filter:Misc
+}
+Ex49{
+label:Treetop
+desc:A tree top with red leaves.
+filter:Forest2
+}
+Ex4A{
+label:Red leaf, facing right
+desc:A red leaf facing right.
+filter:Forest2
+}
+Ex4B{
+label:Red leaf, facing left
+desc:A red leaf facing left.
+filter:Forest2
+}
+Ex4C{
+label:Nest of Little Mouser
+desc:A nest of Little Mousers.
+filter:Cave1, Forest1, Grass1
+}
+Ex4D{
+label:Small bush on ground
+desc:A small bush on a ground. This should be placed on the Object 87 or 88.
+filter:Forest1
+}
+Ex4E{
+label:Small bush on ground
+desc:A small bush on a ground. This should be placed on the Object 87 or 88.
+filter:Forest1
+}
+Ex4F{
+label:Small bush on ground
+desc:A small bush on a ground. This should be placed on the Object 87 or 88.
+filter:Forest1
+}
+Ex50{
+label:Arrow sign, right
+desc:An arrow sign facing right.
+filter:Cave1, Forest1, Pond, 3D, Castle1, Grass1, Forest2, Castle2, Flower, Castle3, Grass2
+}
+Ex51{
+label:Center of spike mace
+desc:The center of a spike mace.
+filter:Castle1, Castle2, Castle3
+}
+Ex52{
+label:Boo Guys' spike mace room
+desc:Boo Guys' spike mace room where they handle a spike mace.
+filter:Castle1, Castle2, Castle3
+}
+Ex53{
+label:Boo Guy's spike ball room
+desc:A Boo Guy's spike ball room where it controls a spike ball.
+filter:Castle1, Castle2, Castle3
+}
+Ex54{
+label:Treetop 1
+desc:A treetop slanted upwards right.
+filter:Grass2
+}
+Ex55{
+label:Treetop 2
+desc:A treetop slanted upwards left.
+filter:Grass2
+}
+Ex56{
+label:Treetop 3
+desc:A treetop with many leaves.
+filter:Grass2
+}
+Ex57{
+label:Treetop 4
+desc:A treetop with many leaves.
+filter:Grass2
+}
+Ex58{
+label:Leaves of tree, left
+desc:3 leaves of a tree facing left.
+filter:Grass2
+}
+Ex59{
+label:Leaves of tree, left
+desc:3 leaves of a tree facing left.
+filter:Grass2
+}
+Ex5A{
+label:Branch and leaves of tree, left
+desc:A branch and leaves of a tree facing left.
+filter:Grass2
+}
+Ex5B{
+label:Leaves of tree, right
+desc:3 leaves of a tree facing right.
+filter:Grass2
+}
+Ex5C{
+label:Leaves of tree, right
+desc:3 leaves of a tree facing left.
+filter:Grass2
+}
+Ex5D{
+label:Branch and leaves of tree, right
+desc:A branch and leaves of a tree facing right.
+filter:Grass2
+}
+Ex5E{
+label:Donut lift
+desc:A donut lift.
+filter:Cave1, Forest1, Pond, 3D, Snow, Jungle, Castle1, Grass1, Cave2, Forest2, Castle2, Sewer, Flower, Sky, Castle3, Grass2
+}
+Ex5F{
+label:Rock 1
+desc:A middle-sized rock.
+filter:Snow, Grass2
+}
+Ex60{
+label:Rock 2
+desc:A large rock.
+filter:Snow, Grass2
+}
+Ex61{
+label:Rock 3
+desc:A small rock.
+filter:Snow, Grass2
+}
+Ex62{
+label:Rock 4
+desc:A small rock.
+filter:Snow, Grass2
+}
+Ex63{
+label:Rock 5
+desc:A large rock.
+filter:Snow, Grass2
+}
+Ex64{
+label:Rock 6
+desc:A large rock.
+filter:Snow, Grass2
+}
+Ex65{
+label:Rock 7
+desc:A middle-sized rock.
+filter:Snow, Grass2
+}
+Ex66{
+label:Rock 8
+desc:A small rock.
+filter:Snow, Grass2
+}
+Ex67{
+label:Branch of stuck tree
+desc:A branch of tree stuck in a ground.
+filter:Forest2
+}
+Ex68{
+label:Stones on waterfall
+desc:Stones on waterfall in caves.
+filter:Cave1
+}
+Ex69{
+label:Stone on waterfall
+desc:A stone on waterfall in caves.
+filter:Cave1
+}
+Ex6A{
+label:Small Bushes
+desc:Small bushes hide enemies.
+filter:Grass1
+}
+Ex6B{
+label:Bushes
+desc:Bushes hide enemies.
+filter:Grass1
+}
+Ex6C{
+label:Large Bushes
+desc:Large bushes hide enemies.
+filter:Grass1
+}
+Ex6D{
+label:Sewage pipe entrance, top
+desc:A top sewage pipe entrance. This activates screen exit by just touching it, don't forget to set up screen exit for the screen this is placed.
+filter:Sewer
+}
+Ex6E{
+label:Sewage pipe entrance, bottom
+desc:A bottom sewage pipe entrance. This activates screen exit by just touching it, don't forget to set up screen exit for the screen this is placed.
+filter:Sewer
+}
+Ex6F{
+label:Sewage pipe entrance, left
+desc:A left sewage pipe entrance. This activates screen exit by just touching it, don't forget to set up screen exit for the screen this is placed.
+filter:Sewer
+}
+Ex70{
+label:Sewage pipe entrance, right
+desc:A right sewage pipe entrance. This activates screen exit by just touching it, don't forget to set up screen exit for the screen this is placed.
+filter:Sewer
+}
+Ex71{
+label:Sewage pipe object 1
+desc:A sewage pipe connects a smaller pipe below and a larger pipe above.
+filter:Sewer
+}
+Ex72{
+label:Sewage pipe object 2
+desc:A sewage pipe connects a larger pipe below and a smaller pipe above.
+filter:Sewer
+}
+Ex73{
+label:Sewage pipe object 3
+desc:A sewage pipe connects a smaller pipe right and a larger pipe left.
+filter:Sewer
+}
+Ex74{
+label:Sewage pipe object 4
+desc:A sewage pipe connects a large pipe right and a smaller pipe left.
+filter:Sewer
+}
+Ex75{
+label:Small horizontal sewage pipe joint 1
+desc:A small joint of a horizontal sewage pipe.
+filter:Sewer
+}
+Ex76{
+label:Small horizontal sewage pipe joint 2
+desc:A small joint of a horizontal sewage pipe.
+filter:Sewer
+}
+Ex77{
+label:Large horizontal sewage pipe joint 1
+desc:A large joint of a horizontal sewage pipe.
+filter:Sewer
+}
+Ex78{
+label:Large horizontal sewage pipe joint 2
+desc:A large joint of a horizontal sewage pipe.
+filter:Sewer
+}
+Ex79{
+label:Small vertical sewage pipe joint 1
+desc:A small joint of a vertical sewage pipe.
+filter:Sewer
+}
+Ex7A{
+label:Small vertical sewage pipe joint 2
+desc:A small joint of a vertical sewage pipe.
+filter:Sewer
+}
+Ex7B{
+label:Large vertical sewage pipe joint 1
+desc:A large joint of a vertical sewage pipe.
+filter:Sewer
+}
+Ex7C{
+label:Large vertical sewage pipe joint 2
+desc:A large joint of a vertical sewage pipe.
+filter:Sewer
+}
+Ex7D{
+label:Grate
+desc:A grate in a sewage pipe.
+filter:Sewer
+}
+Ex7E{
+label:Sewage pipe's wall shadow
+desc:A sewage pipe's wall shadow.
+filter:Sewer
+}
+Ex7F{
+label:Sewage pipe's wall shadow
+desc:A sewage pipe's wall shadow.
+filter:Sewer
+}
+Ex80{
+label:Transparent tile
+desc:A transparent tile. Possibly used for Wall Lakitu generator. For the purpose of a transparent tile, use the Extended Object FD.
+filter:Cave1, Forest1, Grass1
+}
+Ex81{
+label:Chimneys of Yoshi's house
+desc:Chimneys of Yoshi's house.
+filter:Cave1, Forest1, Pond, 3D, Snow, Jungle, Castle1, Grass1, Cave2, Forest2, Castle2, Sewer, Flower, Sky, Castle3, Grass2
+}
+Ex82{
+label:Yoshi's house
+desc:Yoshi's house.
+filter:Cave1, Forest1, Pond, 3D, Snow, Jungle, Castle1, Grass1, Cave2, Forest2, Castle2, Sewer, Flower, Sky, Castle3, Grass2
+}
+Ex83{
+label:Extremely large cloud
+desc:An extremely large cloud.
+filter:Sky
+}
+Ex84{
+label:Large cloud.
+desc:A larege cloud.
+filter:Sky
+}
+Ex85{
+label:Small cloud 1
+desc:A small cloud.
+filter:Sky
+}
+Ex86{
+label:Small cloud 2
+desc:A small cloud.
+filter:Sky
+}
+Ex87{
+label:Middle-sized cloud.
+desc:A middle-sized cloud.
+filter:Sky
+}
+Ex88{
+label:Sewage pipe hole
+desc:A sewage pipe hole where Yoshi can enter.
+filter:Sewer
+}
+Ex89{
+label:Sewage pipe arrow sign, left
+desc:A left arrow sign in sewage pipes.
+filter:Sewer
+}
+Ex8A{
+label:Sewage pipe arrow sign, right
+desc:A right arrow sign in sewage pipes.
+filter:Sewer
+}
+Ex8B{
+label:Sewage pipe arrow sign, up
+desc:An up arrow sign in sewage pipes.
+filter:Sewer
+}
+Ex8C{
+label:Sewage pipe arrow sign, down
+desc:A down arrow sign in sewage pipes.
+filter:Sewer
+}
+Ex8D{
+label:Ground edge planer
+desc:This planes a ground edge.
+filter:Cave1, Forest1, Snow, Grass1, Cave2, Forest2
+}
+Ex8E{
+label:Small line guide cornder, top left
+desc:A small top left corner of line guide.
+filter:Cave1, Forest1, Pond, 3D, Snow, Jungle, Castle1, Grass1, Cave2, Forest2, Castle2, Sewer, Flower, Sky, Castle3, Grass2
+}
+Ex8F{
+label:Small line guide cornder, top right
+desc:A small top right corner of line guide.
+filter:Cave1, Forest1, Pond, 3D, Snow, Jungle, Castle1, Grass1, Cave2, Forest2, Castle2, Sewer, Flower, Sky, Castle3, Grass2
+}
+Ex90{
+label:Small line guide cornder, bottom left
+desc:A small bottom left corner of line guide.
+filter:Cave1, Forest1, Pond, 3D, Snow, Jungle, Castle1, Grass1, Cave2, Forest2, Castle2, Sewer, Flower, Sky, Castle3, Grass2
+}
+Ex91{
+label:Small line guide cornder, bottom right
+desc:A small bottom right corner of line guide.
+filter:Cave1, Forest1, Pond, 3D, Snow, Jungle, Castle1, Grass1, Cave2, Forest2, Castle2, Sewer, Flower, Sky, Castle3, Grass2
+}
+Ex92{
+label:Line guide cornder, top left
+desc:A top left corner of line guide.
+filter:Grass2
+}
+Ex93{
+label:Line guide cornder, top right
+desc:A top right corner of line guide.
+filter:Grass2
+}
+Ex94{
+label:Line guide cornder, bottom left
+desc:A bottom left corner of line guide.
+filter:Grass2
+}
+Ex95{
+label:Line guide cornder, bottom right
+desc:A bottom right corner of line guide.
+filter:Grass2
+}
+Ex96{
+label:Large line guide corner, top left
+desc:A large top left corner of line guide.
+filter:Grass2
+}
+Ex97{
+label:Large line guide corner, top right
+desc:A large top right corner of line guide.
+filter:Grass2
+}
+Ex98{
+label:Large line guide corner, bottom left
+desc:A large bottom left corner of line guide.
+filter:Grass2
+}
+Ex99{
+label:Large line guide corner, bottom right
+desc:A large bottom right corner of line guide.
+filter:Grass2
+}
+Ex9A{
+label:Left line guide stopper
+desc:A left stopper of line guide.
+filter:Cave1, Forest1, Pond, 3D, Snow, Jungle, Castle1, Grass1, Cave2, Forest2, Castle2, Sewer, Flower, Sky, Castle3, Grass2
+}
+Ex9B{
+label:Right line guide stopper
+desc:A right stopper of line guide.
+filter:Cave1, Forest1, Pond, 3D, Snow, Jungle, Castle1, Grass1, Cave2, Forest2, Castle2, Sewer, Flower, Sky, Castle3, Grass2
+}
+Ex9C{
+label:Top line guide stopper
+desc:A top stopper of line guide.
+filter:Cave1, Forest1, Pond, 3D, Snow, Jungle, Castle1, Grass1, Cave2, Forest2, Castle2, Sewer, Flower, Sky, Castle3, Grass2
+}
+Ex9D{
+label:Bottom line guide stopper
+desc:A bottom stopper of line guide.
+filter:Cave1, Forest1, Pond, 3D, Snow, Jungle, Castle1, Grass1, Cave2, Forest2, Castle2, Sewer, Flower, Sky, Castle3, Grass2
+}
+Ex9E{
+label:Sewage waterfall, left
+desc:Sewage waterfall towards left. This is intended to be used only on the Object D3.
+filter:Sewer
+}
+Ex9F{
+label:Sewage waterfall, right
+desc:Sewage waterfall towards right. This is intended to be used only on the Object D3.
+filter:Sewer
+}
+ExA0{
+label:Sewage rock corner, bottom right
+desc:A bottom right corner of a sewage rock.
+filter:Sewer
+}
+ExA1{
+label:Sewage rock corner, bottom left
+desc:A bottom left corner of a sewage rock.
+filter:Sewer
+}
+ExA2{
+label:Sewage rock corner, top right
+desc:A top right corner of a sewage rock.
+filter:Sewer
+}
+ExA3{
+label:Sewage rock corner, top left
+desc:A top left corner of a sewage rock.
+filter:Sewer
+}
+ExA4{
+label:Yellow flowers
+desc:Yellow small flowers on grassy grounds.
+filter:Grass1
+}
+ExA5{
+label:Tall snowy tree
+desc:A tall snowy tree.
+filter:Snow
+}
+ExA6{
+label:Snowy tree
+desc:A snowy tree.
+filter:Snow
+}
+ExA7{
+label:Frozen Shy Guy in ice
+desc:A frozen Shy guy in ice in caves.
+filter:Cave2
+}
+ExA8{
+label:Arrow sign, left
+desc:A arrow sign facing left.
+filter:Cave1, Forest1, Pond, 3D, Snow, Jungle, Castle1, Grass1, Cave2, Forest2, Castle2, Sewer, Flower, Sky, Castle3, Grass2
+}
+ExA9{
+label:Tall icicle
+desc:A tall icicle.
+filter:Cave2
+}
+ExAA{
+label:Icicle
+desc:An icicle.
+filter:Cave2
+}
+ExAB{
+label:Short icicle
+desc:A short icicle.
+filter:Cave2
+}
+ExAC{
+label:Broken icicle
+desc:A broken icicle.
+filter:Cave2
+}
+ExAD{
+label:Crystal 1
+desc:A tall crystal.
+filter:Cave2
+}
+ExAE{
+label:Crystal 2
+desc:Tall and short crystals.
+filter:Cave2
+}
+ExAF{
+label:Crystal 3
+desc:A short crystal.
+filter:Cave2
+}
+ExB0{
+label:Crystal 4
+desc:Short crystals.
+filter:Cave2
+}
+ExB1{
+label:Crystal 5
+desc:Short crystals.
+filter:Cave2
+}
+ExB2{
+label:Crystal 6
+desc:Short crystals.
+filter:Cave2
+}
+ExB3{
+label:Rocks on lava
+desc:Rocks on lava in caves.
+filter:Cave2
+}
+ExB4{
+label:Small mushroom, left
+desc:A small mushroom facing left.
+filter:Cave2
+}
+ExB5{
+label:Small mushroom, right
+desc:A small mushroom facing right.
+filter:Cave2
+}
+ExB6{
+label:Large mushroom, left
+desc:A large mushroom facing left.
+filter:Cave2
+}
+ExB7{
+label:Large mushroom, right
+desc:A large mushroom facing right.
+filter:Cave2
+}
+ExB8{
+label:3 mushrooms
+desc:3 mushrooms.
+filter:Cave2
+}
+ExB9{
+label:4 mushrooms
+desc:4 mushrooms.
+filter:Cave2
+}
+ExBA{
+label:Short fluffed dandelion, left
+desc:A short fluffed dandelion facing left.
+filter:Cave2
+}
+ExBB{
+label:Middle fluffed dandelion, left
+desc:A middle fluffed dandelion facing left.
+filter:Cave2
+}
+ExBC{
+label:Tall fluffed dandelion, left
+desc:A tall fluffed dandelion facing left.
+filter:Cave2
+}
+ExBD{
+label:Short fluffed dandelion, right
+desc:A short fluffed dandelion facing right.
+filter:Cave2
+}
+ExBE{
+label:Middle fluffed dandelion, right
+desc:A middle fluffed dandelion facing right.
+filter:Cave2
+}
+ExBF{
+label:Tall fluffed dandelion, right
+desc:A tall fluffed dandelion facing right.
+filter:Cave2
+}
+ExC0{
+label:Small snowy platform
+desc:A small snowy platform.
+filter:Sky
+}
+ExC1{
+label:Tip of snowy platform
+desc:A tip of snowy platform.
+filter:Sky
+}
+ExC2{
+label:Snowy platform
+desc:A snowy platform.
+filter:Sky
+}
+ExC3{
+label:Unbalanced snowy platform
+desc:An unbalanced snowy platform that will fall down if stepped on.
+filter:Sky
+}
+ExC4{
+label:Egg block
+desc:An Egg Block.
+filter:Cave1, Forest1, Pond, 3D, Snow, Jungle, Castle1, Grass1, Cave2, Forest2, Castle2, Sewer, Flower, Sky, Castle3, Grass2
+}
+ExC5{
+label:Flower garden pattern 1
+desc:Pattern of flower garden.
+filter:Flower
+}
+ExC6{
+label:Flower garden pattern 2
+desc:Pattern of flower garden.
+filter:Flower
+}
+ExC7{
+label:Flower garden pattern 3
+desc:Pattern of flower garden.
+filter:Flower
+}
+ExC8{
+label:Flower garden pattern, with tulip, left
+desc:Pattern of flower garden with a tulip facing left.
+filter:Flower
+}
+ExC9{
+label:Flower garden pattern, with tulip, right
+desc:Pattern of flower garden with a tulip facing right.
+filter:Flower
+}
+ExCA{
+label:White flower 1
+desc:A white flower in flower gardens.
+filter:Flower
+}
+ExCB{
+label:White flower 2
+desc:A white flower in flower gardens.
+filter:Flower
+}
+ExCC{
+label:White flower 3
+desc:A white flower in flower gardens.
+filter:Flower
+}
+ExCD{
+label:White flower 4
+desc:A white flower in flower gardens.
+filter:Flower
+}
+ExCE{
+label:Flower 1
+desc:A flower.
+filter:Flower
+}
+ExCF{
+label:Flower 2
+desc:A flower.
+filter:Flower
+}
+ExD0{
+label:Flower 3
+desc:A flower.
+filter:Flower
+}
+ExD1{
+label:Flower 4
+desc:A flower.
+filter:Flower
+}
+ExD2{
+label:Flower 5
+desc:A flower.
+filter:Flower
+}
+ExD3{
+label:Flower 6
+desc:A flower.
+filter:Flower
+}
+ExD4{
+label:Large rock, right 1
+desc:A right facing large rock in flower gardens.
+filter:Flower
+}
+ExD5{
+label:Large rock, right 2
+desc:A right facing large rock in flower gardens.
+filter:Flower
+}
+ExD6{
+label:Large rock, right 3
+desc:A right facing large rock in flower gardens.
+filter:Flower
+}
+ExD7{
+label:Small rock, right 1
+desc:A right facing small rock in flower gardens.
+filter:Flower
+}
+ExD8{
+label:Small rock, right 2
+desc:A right facing small rock in flower gardens.
+filter:Flower
+}
+ExD9{
+label:Large rock, left 1
+desc:A left facing large rock in flower gardens.
+filter:Flower
+}
+ExDA{
+label:Large rock, left 2
+desc:A left facing large rock in flower gardens.
+filter:Flower
+}
+ExDB{
+label:Large rock, left 3
+desc:A left facing large rock in flower gardens.
+filter:Flower
+}
+ExDC{
+label:Small rock, left 1
+desc:A left facing small rock in flower gardens.
+filter:Flower
+}
+ExDD{
+label:Small rock, left 2
+desc:A left facing small rock in flower gardens.
+filter:Flower
+}
+ExDE{
+label:Grounded rock 1
+desc:A grounded rock.
+filter:Flower
+}
+ExDF{
+label:Grounded rock 2
+desc:A grounded rock.
+filter:Flower
+}
+ExE0{
+label:3D pipe with key paint
+desc:3D pipe entrance with paint of a key.
+filter:3D
+}
+ExE1{
+label:Undefined object
+desc:Do not use or it'll crash the game.
+filter:Misc
+}
+ExE2{
+label:Undefined object
+desc:Do not use or it'll crash the game.
+filter:Misc
+}
+ExE3{
+label:Undefined object
+desc:Do not use or it'll crash the game.
+filter:Misc
+}
+ExE4{
+label:Undefined object
+desc:Do not use or it'll crash the game.
+filter:Misc
+}
+ExE5{
+label:Undefined object
+desc:Do not use or it'll crash the game.
+filter:Misc
+}
+ExE6{
+label:Undefined object
+desc:Do not use or it'll crash the game.
+filter:Misc
+}
+ExE7{
+label:Undefined object
+desc:Do not use or it'll crash the game.
+filter:Misc
+}
+ExE8{
+label:Undefined object
+desc:Do not use or it'll crash the game.
+filter:Misc
+}
+ExE9{
+label:Undefined object
+desc:Do not use or it'll crash the game.
+filter:Misc
+}
+ExEA{
+label:Undefined object
+desc:Do not use or it'll crash the game.
+filter:Misc
+}
+ExEB{
+label:Undefined object
+desc:Do not use or it'll crash the game.
+filter:Misc
+}
+ExEC{
+label:Undefined object
+desc:Do not use or it'll crash the game.
+filter:Misc
+}
+ExED{
+label:Undefined object
+desc:Do not use or it'll crash the game.
+filter:Misc
+}
+ExEE{
+label:Undefined object
+desc:Do not use or it'll crash the game.
+filter:Misc
+}
+ExEF{
+label:Undefined object
+desc:Do not use or it'll crash the game.
+filter:Misc
+}
+ExF0{
+label:Undefined object
+desc:Do not use or it'll crash the game.
+filter:Misc
+}
+ExF1{
+label:Undefined object
+desc:Do not use or it'll crash the game.
+filter:Misc
+}
+ExF2{
+label:Undefined object
+desc:Do not use or it'll crash the game.
+filter:Misc
+}
+ExF3{
+label:Undefined object
+desc:Do not use or it'll crash the game.
+filter:Misc
+}
+ExF4{
+label:Undefined object
+desc:Do not use or it'll crash the game.
+filter:Misc
+}
+ExF5{
+label:Undefined object
+desc:Do not use or it'll crash the game.
+filter:Misc
+}
+ExF6{
+label:Undefined object
+desc:Do not use or it'll crash the game.
+filter:Misc
+}
+ExF7{
+label:Undefined object
+desc:Do not use or it'll crash the game.
+filter:Misc
+}
+ExF8{
+label:Undefined object
+desc:Do not use or it'll crash the game.
+filter:Misc
+}
+ExF9{
+label:Undefined object
+desc:Do not use or it'll crash the game.
+filter:Misc
+}
+ExFA{
+label:Undefined object
+desc:Do not use or it'll crash the game.
+filter:Misc
+}
+ExFB{
+label:Screen index copier
+desc:Copys the screen index where this object is placed in to the screen index where is the same as the lower coordinates.
+filter:Cave1, Forest1, Pond, 3D, Snow, Jungle, Castle1, Grass1, Cave2, Forest2, Castle2, Sewer, Flower, Sky, Castle3, Grass2, Kamek, Misc
+}
+ExFC{
+label:No Function
+desc:Affects nothing but increases the level data size.
+filter:Misc
+}
+ExFD{
+label:Transparent tile
+desc:A transparent tile. Often used to make the display able to scroll into the screen contains nothing but this object.
+filter:Cave1, Forest1, Pond, 3D, Snow, Jungle, Castle1, Grass1, Cave2, Forest2, Castle2, Sewer, Flower, Sky, Castle3, Grass2, Kamek, Misc
+}
+ExFE{
+label:Scroll stopper
+desc:Makes the display unable to scroll into the screen this command is placed. 
+filter:Cave1, Forest1, Pond, 3D, Snow, Jungle, Castle1, Grass1, Cave2, Forest2, Castle2, Sewer, Flower, Sky, Castle3, Grass2, Kamek, Misc
+}
+ExFF{
+label:Tile eraser
+desc:Erases all tiles in the screen where this command is placed. Place this command in the screen you want after you're done with the screen.
+filter:Cave1, Forest1, Pond, 3D, Snow, Jungle, Castle1, Grass1, Cave2, Forest2, Castle2, Sewer, Flower, Sky, Castle3, Grass2, Kamek, Misc
+}
+</value>
+  </data>
+  <data name="map" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAphJREFUOE+lkUlP
+        00EcQOvZeNePYAiJBw+GePBg4sFgYgwXDlwaLKGWsght2GURSCkQWRQVBCyGgoC1LLKVRSwUW2SrBQUB
+        acFCRLFlC8uz848fQHSS38zlvZfMzKmwjIxQmUx2LjAnXWuNmZlm2a20NAX/sP54MtnN5OSo40CgfjiV
+        1rFchmfKcM7XY5/vxjA9Q47NjXbIQ1yXB5XZQ3SLB8ELL3DIZDc0mujD42OeWZLomddjc1cy5qpkc9fC
+        R98cDWt+0q0esp2QaodokwfBC08KXE9IUO4fHVHZFUeb6z6WLyV0jev55nvFxo6V0R/L6N4vUvAJMqfg
+        jnkFwQtPClxTq1W7h4eUmZU87o6nbiAZkyOP/skSpmbrsM110OBykWVdIql/GXXnMoIXnhS4qlTG+A8O
+        KG6OosGegmkmG8NgCiMrj1jcNPJ9p48+Zx/GtV/oF46J71lC8MKTAlcUitit/X30L25jsGpoHE/jaU8i
+        vQvFOFarWN1qxeFqClxliaqVfbT9iwheeFLgslwev7m3R1G1gtrBROptWira1bTP5jOw+ADneh32mSpW
+        /Ha6NrxkDn1G8MKTApciIhI2dncpqYhGVxNJYUMk5R0qHnbEUt2rpfFtFlZnBfbpWronOykdmUDwwpMC
+        F8PDE707O5SVqDCYtNT23aXQGInRkYrJmRP42iJa3uXi/tnM+vYQLQ4LgheeFLgQFqZZ3d6mXKfG2JhG
+        XVsS+QY5hlENTR/SA1+bx3NLKtPeGrw+M0MTLxG88KTA+dDQZLffT3lBDKW6GPSlURRUySmol6NvUlD6
+        WsWTN4G36c+g26ZndKIawQtPCpwNCbnnDbzqV5/vr0fwwpMCZ4KDI08HBeWddIQnBcT2P/MbK63AAW0y
+        rkgAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="New" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMFJREFUOE+1080K
+        gkAUhmG9sS4kuq4uIMIKWkQ/i5YZEW0qaBEJFQRJhYSRYTExX5xIEJyjZ9PAywwKzxwX2tZv1R0Xydm0
+        V8olO++9RcDSR6b2cIbpfI+iC77A6oRMBERPVYwQsL4gUwIQsvF8fhICvADGqrUO0hk/hx7urjDWGkzQ
+        7I/R6LlwuiPzFAQcQhhzF1ukYyc43gBJLHC+a0higeChIYkFwlhDEgtELw1JLBArDUksoN4akv4HkCwt
+        +bU/q/13Qtsd4msAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="HeaderEditor" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAPVJREFUOE+VU8EN
+        wjAMpCijMEhmYARGQUzCALwYIEIdoy/EkxGqBl+ac520jUQlK656d3bsa9e/+sPe472P+BZC6Gxe4CGw
+        Fe7oopsk7hJVbvFN8jiN0UYSu8yCFNkVABFAe6Y8C6SuJP4WoODwcBFRCFCVlesr8J248XxaBHRQGByC
+        7UvLxRxwBYNJHZCsFQggGCdDvqVr5A0tAmZgWoFrzKRVAdmKVi9I7IACAtxbaVsAe8+7bwsAtFHVGuf7
+        fmoXyDmTuQNWqk8OLpsGREtWI61E7NSz83CFmlw4UU3UIH+uN51J8ok1En8O60abg6wC5qf6ARVXDR66
+        cGxrAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="level_name_list" xml:space="preserve">
+    <value>00	1-1 Make Eggs, Throw Eggs
+01	1-2 Watch Out Below!
+02	1-3 The Cave Of Chomp Rock
+03	1-4 Burt The Bashful's Fort
+04	1-5 Hop! Hop! Donut Lifts!
+05	1-6 Shy-Guys On Stilts
+06	1-7 Touch Fuzzy, Get Dizzy
+07	1-8 3rd Room
+08	1-E Poochy Ain't Stupid
+09	2-1 Visit Koopa And Para-Koopa
+0A	2-2 The Baseball Boys
+0B	2-3 What's Gusty Taste Like?
+0C	2-4 Bigger Boo's Fort
+0D	2-5 Watch Out For Lakitu
+0E	2-6 The Cave Of The Mystery Maze
+0F	2-7 Lakitu's Wall
+10	2-8 The Potted Ghost's Castle
+11	2-E Hit That Switch!!
+12	3-1 Welcome To Monkey World!
+13	3-2 Jungle Rhythm...
+14	3-3 Nep-Enuts' Domain
+15	3-4 Prince Froggy's Fort
+16	3-5 Jammin' Through The Trees
+17	3-6 The Cave Of Harry Hedgehog
+18	3-7 Monkeys' Favorite Lake
+19	3-8 Naval Piranha's Castle
+1A	3-E More Monkey Madness
+1B	4-1 GO! GO! MARIO!!
+1C	4-2 The Cave Of The Lakitus
+1D	4-3 Don't Look Back!
+1E	4-4 Marching Milde's Fort
+1F	4-5 Chomp Rock Zone
+20	4-6 Lake Shore Paradise
+21	4-7 Ride Like The Wind
+22	4-8 Hookbill The Koopa's Castle
+23	4-E 2nd Room
+24	5-1 BLIZZARD!!!
+25	5-2 Ride The Ski Lifts
+26	5-3 Danger - Icy Conditions Ahead
+27	5-4 Sluggy The Unshaven's Fort
+28	5-5 Goonie Rides!
+29	5-6 Welcome To Cloud World
+2A	5-7 Shifting Platforms Ahead
+2B	5-8 Raphael The Raven's Castle
+2C	5-E Kamek's Revenge
+2D	6-1 Scary Skeleton Goonies!
+2E	6-2 The Cave Of The Bandits
+2F	6-3 Beware The Spinning Logs
+30	6-4 Tap-Tap The Red Nose's Fort
+31	6-5 The Very Loooooong Cave
+32	6-6 The Deep, Underground Maze
+33	6-7 KEEP MOVING!!!!
+34	6-8 King Bowser's Castle
+35	6-E Castles - Masterpiece Set
+36	Shy Guy Pipe
+37	Lantern Ghost Pipe
+38	Intro Scene
+39	Welcome To Yoshi's Island
+3A	1-1 Bonus Cave Room
+3B	1-2 2nd Room
+3C	1-3 Cave Part
+3D	Boss: Burt the Bashful
+3E	1-6 3rd Room
+3F	1-7 Bonus Room
+40	1-8 2nd Room
+41	2-1 3rd Room
+42	2-2 2nd Room
+43	2-3 2nd Room
+44	2-4 2nd Room
+45	2-5 2nd Room
+46	2-6 2nd Room
+47	2-7 Bonus Room
+48	2-8 2nd Room
+49	2-E Bonus Room
+4A	3-1 2nd Room
+4B	3-2 Bonus Room
+4C	3-3 2nd Room
+4D	3-4 2nd Room
+4E	3-5 2nd Room
+4F	3-6 2nd Room
+50	3-7 2nd Room
+51	3-8 2nd Room
+52	4-1 2nd Room
+53	4-2 2nd Room
+54	4-3 2nd Room
+55	4-4 2nd Room
+56	4-5 2nd Room
+57	4-6 2nd Room
+58	4-7 2nd Room
+59	4-8 2nd Room
+5A	4-E The Impossible? Maze
+5B	5-1 2nd Room
+5C	5-2 2nd Room
+5D	5-3 2nd Room
+5E	5-4 2nd Room
+5F	5-5 2nd Room
+60	5-6 2nd Room
+61	5-7 2nd Room
+62	5-8 2nd Room
+63	5-E 2nd Room
+64	6-1 2nd Room
+65	6-2 2nd Room
+66	6-3 2nd Room
+67	6-4 3rd Room
+68	6-5 2nd Goal
+69	6-6 2nd Room
+6A	6-7 2nd Room
+6B	6-8 3rd Room
+6C	6-E 2nd Room
+6D	1-3 Bonus Room
+6E	1-4 2nd Room
+6F	1-6 Bonus Room
+70	Boss: Salvo the Slime
+71	2-1 2nd Room
+72	2-2 3rd Room
+73	2-3 Bonus Room
+74	Boss: Bigger Boo
+75	2-5 Bonus Room
+76	2-6 5th Room
+77	2-7 3rd Room
+78	2-8 3rd Room
+79	3-1 3rd Room
+7A	3-3 3rd Room
+7B	3-4 3rd Room
+7C	3-5 3rd Room
+7D	3-6 3rd Room
+7E	3-7 3rd Room
+7F	Boss: Naval Piranha
+80	4-1 3rd Room
+81	4-2 3rd Room
+82	Boss: Marching Milde
+83	4-5 Bonus Room
+84	4-6 3rd Room
+85	4-7 Bonus Room
+86	Boss: Hookbill the Koopa
+87	5-1 3rd Room
+88	5-2 3rd Room
+89	5-3 3rd Room
+8A	Boss: Sluggy the Unshaven
+8B	5-5 3rd Room
+8C	5-6 Bonus Room
+8D	5-7 3rd Room
+8E	5-8 3rd Room
+8F	5-E 3rd Room
+90	6-1 3rd Room
+91	6-2 3rd Room
+92	6-3 Bonus Room
+93	6-4 4th Room
+94	6-5 Bonus Room
+95	6-6 3rd Room
+96	6-7 3rd Goal
+97	6-8 2nd Room
+98	6-E 3rd Room
+99	1-4 Bonus Room
+9A	1-6 2nd Room
+9B	1-8 Salvo The Slime's Castle
+9C	2-1 Bonus Room
+9D	2-4 2nd Room
+9E	2-5 Bonus Room
+9F	2-6 4th Room
+A0	2-7 2nd Room
+A1	2-8 3rd Room
+A2	3-1 Bonus Room
+A3	3-4 5th Room
+A4	3-5 Bonus Room
+A5	3-6 Bonus Room
+A6	3-7 Bonus Room
+A7	3-8 Bonus Room
+A8	4-1 Bonus Room
+A9	4-2 Bonus Room
+AA	4-4 3rd Room
+AB	4-6 Bonus Room
+AC	4-8 Bonus Room
+AD	5-1 Bonus Room
+AE	5-2 Bonus Room
+AF	5-3 4th Room
+B0	5-4 3rd Room
+B1	5-7 Bonus Room
+B2	5-8 Bonus Room
+B3	5-8 4th Room
+B4	5-E 4th Room
+B5	6-1 Bonus Room
+B6	6-4 2nd Room
+B7	6-7 Bonus Room
+B8	6-8 Door 1
+B9	6-E 4th Room
+BA	2-1 Bonus Room
+BB	2-4 Bonus Room
+BC	2-5 Bonus Room
+BD	2-6 3rd Room
+BE	2-8 4th Room
+BF	Boss: Prince Froggy
+C0	3-7 Bonus Room
+C1	4-4 4th Room
+C2	5-1 Bonus Room
+C3	5-3 5th Room
+C4	Boss: Raphael the Raven
+C5	6-4 5th Room
+C6	6-8 Door 2
+C7	2-4 3rd Room
+C8	2-8 5th Room
+C9	Boss: Prince Froggy (Stomach)
+CA	5-3 6th Room
+CB	Boss: Raphael the Raven (Moon)
+CC	Boss: Tap-Tap the Red Nose
+CD	6-8 Door 3
+CE	2-4 4th Room
+CF	Boss: Roger the Potted Ghost
+D0	Boss: Prince Froggy (Defeated)
+D1	5-3 7th Room
+D2	5-8 Bonus Room
+D3	6-8 Door 4
+D4	2-8 Bonus Room
+D5	3-4 4th Room
+D6	6-8 Door 3 Tap-Tap Chase
+D7	3-4 Bonus Room
+D8	6-8 Door 2, 2nd Room
+D9	6-8 Door 2, 3rd Room
+DA	Watermelon Seed Spitting Contest (-1)
+DB	Watermelon Seed Spitting Contest (-1)
+DC	Unused Level
+DD	Boss: Baby Bowser</value>
+  </data>
+  <data name="SpriteEditMode" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAOFJREFUOE+dk9EN
+        wjAMRCnqJEySj47CJIhROkhUZQ6m4AtVlJzVC5fU4YNKUdIm786x3SEt6eQ9IYRNv8cYB/cgBDDG87hh
+        cL3mtY33aoN7PM/Z4ALtBwtMkTzPl6+BihQBFWndAf8v8HoafN0jaK/iXoGOnAHPy93yMN2mKh+VQJVE
+        OGcIMN0Bp0fyBdrssio6Q5CRHKrQCniCcD9EoA49EbtahumujDWQp1w1l8A8y0gqAQ1PXeHM7DMPRYBO
+        3GCYfAfYwprIqox0IqAw1z+rwOQoyOahaLcTtQJeD/T+xg8tC/e7Tu2y5QAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="LevelSelect" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAJRJREFUOE/dU9EK
+        wCAIXKMP69Nj9DT6pFhDQdDL2va6IMw6rzo1lKNsOFJKXfZyzmEA6A0i0DPusber8axn7eQjRvsmmA5+
+        SkDfmmnxqAEKikRMIDeI1UG4xswY1QXsWQr00ssEdKgBKyKsD/OFN0SCES2GKlyRYDC3gVfKAvSsmwXs
+        BcyK9vHCZR1o1WeN5RJ8ecENeRRuoXGdV54AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="BG3Viewer" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAJZJREFUOE+lk4EK
+        gCAMRCv8/48KPysqJtw4506MgkFO93abc69n3X59BoCVozxsym9nsNeCY+DquqlXgOu+XI39syFBClCH
+        IxCQTn4MxjqWxDAHqGCVeVAwA6h+GMSb+BWAq+xmYLUMKOpugRuWgVAzBzeAbWRXp3w8hRIwU8Cj74BM
+        RTZ5Mft0lNV7GBRER/Yis8yIewEttTnVT1L7SQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="ExitEditor" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAALhJREFUOE/lkl0O
+        wyAMg6uJk+0oPdqOUvVYVTsc+JiLQJP2uoco/MTGcVj2bV/SI12/hLAFvKXrOI+WtWafznxP5Lq01niW
+        RwvB60Og4gAbKPa5JsDknkAq4lLhr2oNyF+fErgCkYrAyUUm8JRAxR7+OsAhQfUi5PpUaIszJ5GJbYyS
+        SpG3YWfRTkdepoC71nM/iVCme4ysRHeC0RQwkPyVoLreFGAoZpKnCgD0PxB1QwX0p/x//+ANuVKgHJ9w
+        UgoAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="Selector" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAIlJREFUOE+1UwEK
+        wCAIrNHDenqMnjW24dZFOW2BWyBF6eWd6sMSDldWSsnjPNpjjDXGEcC230bnvGY3Mu7fAbyBtMHwvX6T
+        HngWmk9NV3KgOxho8iw7vhqIFkxZPgQDSCuodAeKIoBUDVDh2vwDwIWapmAS0VRGUyPNBEN5sZU/GSat
+        xtpUti1+Ag40AbtSO6uvAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="Open" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAALEQAA
+        CxEBf2RfkQAAAXlJREFUOE+lkrtKA0EUhrUSexVfwIewsdFCMHkFO9OIF2wkgo2mUYhNguKlSARLBRGj
+        UVFQVBRUhBDNjQhGAsZCSTSZmez8zsxeNEskwi58nP+c4fxzZmeaATQ5+qSBExw1q+md7G4ZHPtb3ALY
+        cP/HvMls5pwDfMOijqHawG4qDaCaWQjchIaFFlBZC4s1SUjFg7nWGhPd4HMV/GtFoSlt5EJrsv5rvb7B
+        ewCa4Hypw/4fGuZqgurrPIrpSZwttsnxwCtXFhAaZT2XOh9fA6NZ0HJKmesGzzNI7/UiFR2AVjpBtbAg
+        8EMzMLWMyUMXSDmCp+uRHwOW8eJyuRPFTFA0roPlfKjmZg10zWT+4kMy2g9S2jGP5lYT0PgETgPt0N4i
+        YJlpsLTXxhSoqEkSu30gH1vWlSqD/JELyf1BsGwQNDYGIqCxUSNKrUNELbHdg8KDr9bgPtyF/MU4yN0w
+        yI1HMGRRMbSKtx48bnZb46un/Mczbnh95ov8BjGyzPW3TWs2AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="Undo" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAALEQAA
+        CxEBf2RfkQAAAitJREFUOE+lkk1IVFEUx99Mvfsesx4/ZlNBmwiyxQg2NvP8CJoCJbIZ1LTREWlTixbh
+        wqAQxEW1ymg3zruDBlKDmuEHOAqm44gL+1i4CcJNUItqGRT9O+eO7zU67XxwuO/de/+/8z/nPA8A7VAP
+        Aw4TmhGR2yJsw4jYMC152mzIaCqsjGZY0k/7o0bYLqjziL1BdyYoQs49TZxPo2X6NypiswwZokMWEtge
+        4rPA9QWcerCDY/d24Eu+gWiZYhAnG2WIptePIbYMVNNFcjJIjjRaN3zNE6h9+Amh1HdUJHLwtU5BXHoJ
+        b2IV3t48zKZxhtzR9FAKsRwBOudBGYcp3vvbXqHR/oEzIx9hNo6DSlgnR+1mRD7m7AzR44sM+OYCqjrm
+        wTB/2wyi2V84OfCWgGNc1n0uy+kLvaeNi5Pw3NxSpSjAtSWgqn0OZoNE8+RPBJLLjjjuit3myqAS3n63
+        H1AZf43gk884fncbgvpCtp+RuIag59zJqOnIW8aF58U+WOyALl9dBIJPv+DEyC7E5Sz06AtqWFa9m9RM
+        AgwXS6BSLPmV63d7IMJpnH20i8DAB4j+PDyJNaKvqwzeZB6idZpLK+wB8kaU6u8vOFO4wTNnuxRpFWrG
+        TtAZZfxDgCZaUzw6FitnltxU/0GJNcdica80LDnoiPUrs3vQjP8f4KBg/3cPZcORrhUc7cixmKPO/ZXL
+        spXD+likelEUd5dqyu3+300viXgaPQcT/gUTXJ6Qznd/hgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="Redo" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAALEQAA
+        CxEBf2RfkQAAAhxJREFUOE+lkstPE1EUxi9TemfGhRtYaDQaNy5MdAELQKZTWxIeQSWaEJBHQMQEfK9c
+        NIaEBLdujC5M2s5UakJRIrrBRNINLRQRlZ2sXGlCQv8AF3ycc2ekBRbEMMnJ3Mzc8zvn+86pACAO9TDg
+        MCGMcEoYdkrottsgLSctreS6bEyC33rIeU7fq9WdUpwzbBd+fKNkV/BFTjp1K4v6Z78QSRRR83QdVddn
+        oVsOXx7fAdBZb8mgYrigIJz86EhTWiVZL/7gWM8cjvd8wpk7OdS92sSJB8swI5N8eZGLUcRk2zuIez9g
+        hBwIarV4/skaJf9GsCEO6iRGUrroe86MvEbV/RXIkS/Qo28YsmbYzoRsfVsCBBsTaJ/5i+prs6zbIc1K
+        lifNHeMqga7PEKOr0JunVNXdgIsJdGahqpOc2j2GMaiTk4JXPxDkK8xwCrJlGuLud18CmXcpvomjbdMM
+        6OaJlEHqCXCBAC8NK4nKG/PQhvKQzZkygOUUzz5exemHBXZ8Q7XvjWzCiKbBhqkg3bKdzBtZgUYT2OmA
+        NPeb0UmcHPsJszXDRuU9iLskr7yHdjMPbZAjhwDHwIIXdCZDoZbICLkF8/IMtNs0W29kcQJE6L2lFoY8
+        2Bf+MvmbSNsWcreCHR9pQZb+QWL7DN29kSq3ZJjt1nG1yu55BHqz3qqGUwMHQcod55H1cSJr9wFD/wfw
+        WuSqXH3woGT+vw2+G5mEFl0YUgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="Save" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAALEQAA
+        CxEBf2RfkQAAAU1JREFUOE/Vkz9Lw1AUxfWLVOlmpn4DB0uHruKkoUWbpAUdmknwG7gICgr+QZc2SBBB
+        0L1Fiy0JLRabOMT8TxQU50zHvGBdTIjUyQeHt5z7e+e+y50GMPWnQwDzCwdsKARBkCriI35SFz3+BQDH
+        SqnF5AHiI5BEgCzLSNKvAGlt/IMEE7ewuHSDza02jk+GaAgKmoKKRlPF6ZkS6hHCuQJRVJOnsLYqo1y+
+        B8d1wfMS6nwPtVoHlcot1jeksLAHmr4Dw8jxY2SYAVaWW/C8D7juO/RnF7pmwDJ02KaBh8EIFLWPYvEq
+        GUDTLTjOG6i53Ui6puPFM+G7BDBEJrONfF6MB7BhglKpDct6/QbYphUCLDiWhr7URza7g0LhIh5QrY7C
+        P+hE0ccJfN+BZxsw9CdIXQkzswRwGQuIlono6PA6UbncXuT5sUzjxZjk/gS/KNRyAFcG5wAAAABJRU5E
+        rkJggg==
+</value>
+  </data>
+</root>
